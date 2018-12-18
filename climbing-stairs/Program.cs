@@ -28,6 +28,7 @@ namespace climbing_stairs
             }
             var x = climb_Stairs(i + 1, n);
             Console.WriteLine("x:" + x);
+            
             var y = climb_Stairs(i + 2, n);
             Console.WriteLine("y:" + y);
             return x + y;
